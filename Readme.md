@@ -1,5 +1,3 @@
-![Portada de DWEC - UT02](./assets/repo-cover-dwec-2026-2027.png)
-
 # DWEC UT02: Estructura de objetos predefinidos y objetos definidos por el usuario.
 
 Apuntes del módulo de DWEC del ciclo de grado superior de DAW.

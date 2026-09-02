@@ -1,3 +1,5 @@
+![Portada de DWEC - UT02](./assets/repo-cover-dwec-2026-2027.png)
+
 # DWEC UT02: Estructura de objetos predefinidos y objetos definidos por el usuario.
 
 Apuntes del módulo de DWEC del ciclo de grado superior de DAW.
@@ -16,4 +18,3 @@ Recopilados, resumidos y traducidos de otros apuntes disponibles en la red:
 * The Modern JavaScript Tutorial - [Enlace](https://javascript.info/)
 * Lenguaje JavaScript - [Enlace](https://lenguajejs.com/javascript/)
 * MDN JavaScript - [Enlace](https://developer.mozilla.org/es/docs/Web/JavaScript)
-

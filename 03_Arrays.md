@@ -281,9 +281,9 @@ console.log(nuevoOrdenado)          // [1, 10, 12, 5, 6]
 console.log(nuevoReverse)           // [12, 1, 6, 10, 5]
 ```
 
-Os habreis fijado en que cuando ordena los elementos del `array` no lo hace bien con los numeros que tenemos como elementos del `array`. Esto es por la función de ordenación por defecto que tiene (que funciona correctamente con letras pero no con números).
+Te habrás fijado en que cuando ordena los elementos del `array` no lo hace bien con los numeros que tenemos como elementos del `array`. Esto es por la función de ordenación por defecto que tiene (que funciona correctamente con letras pero no con números).
 
-> Si quereis saber mas acerca de las funciones de ordenación que se pueden utilizar con los métodos de ordenazión aquí teneéis el enlace de MDN Mozilla ([enlace](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)).
+> Si quieres saber mas acerca de las funciones de ordenación que se pueden utilizar con los métodos de ordenazión aquí teneéis el enlace de MDN Mozilla ([enlace](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)).
 
 ### Metodos complejos (con funciones)
 
@@ -340,7 +340,7 @@ nombres.some(function(nombre){
 })
 ```
 
-Como os habreis dado cuenta, estos dos métodos devuelven un valor bolleano, `true` o `false`.
+Como te habrás dado cuenta, estos dos métodos devuelven un valor bolleano, `true` o `false`.
 
 #### Transformando un array
 
@@ -356,7 +356,7 @@ let nombres = ["Jhon", "Mary", "Jordan", "Ann", "Jason", "Lucy"]
 let letras = nombres.map(name => name.length)      // [4, 4, 6, 3, 5, 4]
 ```
 
-El método `filter()` nos permite filtrar los elementos de un array y devolver un nuevo array con sólo los elementos que queramos. Para ello, utilizaremos la función `callback` para establecer una condición que devuelve `true` sólo en los elementos que nos interesen:
+El método `filter()` nos permite filtrar los elementos de un array y devolver un nuevo array con sólo los elementos que queramos. Para ello, utilizarás la función `callback` para establecer una condición que devuelve `true` sólo en los elementos que nos interesen:
 
 ```js
 let nombres = ["Jhon", "Mary", "Jordan", "Ann", "Jason", "Lucy"]
@@ -495,7 +495,7 @@ let numeros = Array.from(numerosTexto, (num) => Number(num));   // [1, 2, 3, 4, 
 
 #### Desestructuración 
 
-Vamos a ver como funciona la desestructuración de elementos en un `array`. Esto como veremos es aplicable a otro tipo de datos como los objetos.
+Vas a ver como funciona la desestructuración de elementos en un `array`. Esto como verás es aplicable a otro tipo de datos como los objetos.
 
 ```js
 let elementos = [5, 2];

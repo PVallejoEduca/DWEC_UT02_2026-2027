@@ -32,7 +32,7 @@ Por ejemplo, si consideramos la siguiente instrucción que abre una nueva ventan
 let subVentana = window.open("nueva.html", "nueva", "height=800, width=600");
 ```
 
-Una vez creada la ventana nueva, a través de las propiedades y los metodos podremos controlar/configurar esta nueva ventana desde el script principal. Recordad las limitaciones de JS del primer tema, no podemos controlar otras ventanas de ningún otro navegador pero si las que hemos creado desde nuestro script.
+Una vez creada la ventana nueva, a través de las propiedades y los metodos podremos controlar/configurar esta nueva ventana desde el script principal. Recuerda las limitaciones de JS del primer tema, no podemos controlar otras ventanas de ningún otro navegador pero si las que hemos creado desde nuestro script.
 
 Las funciones `alert | confirm | prompt` también forman parte del BOM: no están directamente relacionadas con `document`, sino que representan métodos puros del navegador para comunicarse con el usuario.
 
@@ -103,7 +103,7 @@ En Javascript, la forma de acceder al DOM es a través del objeto `document`, qu
 * `element` no es más que la representación genérica de una etiqueta: "HTMLElement".
 * `node` es una unidad más básica, la cuál puede ser `element` o un **nodo de texto**.
 
-En temas posteriores veremos que Javascript nos proporciona un conjunto de herramientas para trabajar de forma nativa con el DOM de la página, entre las que se encuentran:
+En temas posteriores verás que Javascript nos proporciona un conjunto de herramientas para trabajar de forma nativa con el DOM de la página, entre las que se encuentran:
 
 * Buscar etiquetas
 * Crear etiquetas
@@ -122,7 +122,7 @@ Existen una serie de métodos que nos permitirán buscar en el DOM de la página
 
 ### *Metodos tradicionales*
 
-os métodos más clásicos y tradicionales para realizar búsquedas de elementos en el DOM son más sencillos, pero menos potentes. Si lo que buscas es un elemento específico, lo mejor sería utilizar el método getElementById(). En caso contrario, utilizaremos alguno de los otros tres métodos, que nos devuelven siempre un `array`:
+Los métodos más clásicos y tradicionales para realizar búsquedas de elementos en el DOM son más sencillos, pero menos potentes. Si lo que buscas es un elemento específico, lo mejor sería utilizar el método getElementById(). En caso contrario, utilizarás alguno de los otros tres métodos, que nos devuelven siempre un `array`:
 
 | Método de búsqueda | Descripción | Si no lo encuentra... |
 |----------|----------|-----------|
@@ -218,11 +218,11 @@ const links = document.querySelectorAll("#menu a");
 ```
 
 > #### *Tener en cuenta que ...*
-> Aunque en esta documentación hemos hablado de `array` (para simplificar), realmente los métodos de búsqueda generalmente devuelven un tipo de dato `HTMLCollection` o `NodeList`, que aunque son muy similares, no son exactamente lo mismo. Pero esto lo veremos mas adelante.
+> Aunque en esta documentación hemos hablado de `array` (para simplificar), realmente los métodos de búsqueda generalmente devuelven un tipo de dato `HTMLCollection` o `NodeList`, que aunque son muy similares, no son exactamente lo mismo. Pero esto lo verás mas adelante.
 
 ### Modificando contenido de elementos
 
-Si tenemos elementos HTML y queremos modificar su contenido, podemos hacerlo desde Javascript desde ciertas propiedades de elementos del DOM. Estas propiedades son muy útiles tanto para obtener información, para modificarla, así como para eliminarla. Vamos a analizar como podemos hacerlo.
+Si tenemos elementos HTML y queremos modificar su contenido, podemos hacerlo desde Javascript desde ciertas propiedades de elementos del DOM. Estas propiedades son muy útiles tanto para obtener información, para modificarla, así como para eliminarla. Vas a analizar cómo puedes hacerlo.
 
 Antes de empezar imáginemos que tenemos el siguiente código HTML:
 
@@ -235,7 +235,7 @@ Antes de empezar imáginemos que tenemos el siguiente código HTML:
 </div>
 ```
 
-Vamos a seleccionar el elemento `<p>` con clase `.message` desde Javascript y a trabajar con él accediendo a varias de sus propiedades. Las propiedades básicas a las que vamos a acceder son las siguientes:
+Vas a seleccionar el elemento `<p>` con clase `.message` desde Javascript y a trabajar con él accediendo a varias de sus propiedades. Las propiedades básicas a las que vas a acceder son las siguientes:
 
 | Propiedades  | Descripción |
 |----------|----------|

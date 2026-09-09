@@ -123,7 +123,7 @@ function tablaMultiplicarUno(hasta) {
 tablaMultiplicarUno(5);         // Tabla del 1, queremos que llegue hasta el 5
 ```
 
-Una función de Javascript puede tener muchos más parámetros. Vamos a crear otro ejemplo, mucho más útil donde convertimos nuestra función en algo más práctico y útil:
+Una función de Javascript puede tener muchos más parámetros. Vas a crear otro ejemplo en el que convertirás tu función en algo más práctico y útil:
 
 ```js
 function tablaMultiplicar(tabla, hasta) {
@@ -270,7 +270,7 @@ const fA = function (callback) {            // En el ambito de fA se renombra la
 fA(fB);
 ```
 
-Esto nos podría permitir crear varias funciones para utilizar a modo de callback y reutilizarlas posteriormente con diferentes propósitos. De hecho, los callbacks muchas veces son la primera estrategia que se suele utilizar en Javascript para trabajar la asincronía, uno de los temas que veremos más adelante:
+Esto nos podría permitir crear varias funciones para utilizar a modo de callback y reutilizarlas posteriormente con diferentes propósitos. De hecho, los callbacks muchas veces son la primera estrategia que se suele utilizar en Javascript para trabajar la asincronía, uno de los temas que verás más adelante:
 
 ```js
 function pregunta(texto, afirmativo, negativo) {

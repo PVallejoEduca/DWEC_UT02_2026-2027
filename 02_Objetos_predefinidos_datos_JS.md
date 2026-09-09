@@ -46,7 +46,7 @@ console.log(inmutable.length):     // Muestra 16
 
 ### Métodos de String
 
-Pero las características más interesantes de los strings se encuentran en los métodos de dicho tipo de dato. Ten en cuenta que, en las variables de texto, los métodos se ejecutan sobre el propio texto del `string`, devolviendo información modificada a partir de este. Aquí podeis ver un resumen de los mas importantes/utilizados.
+Pero las características más interesantes de los strings se encuentran en los métodos de dicho tipo de dato. Ten en cuenta que, en las variables de texto, los métodos se ejecutan sobre el propio texto del `string`, devolviendo información modificada a partir de este. Aquí puedes ver un resumen de los mas importantes/utilizados.
 
 <p align="center"> 
 <img src="./img/string_methods.jpeg" width="60%" height="60%" style="display: block; margin: 0 auto" />
@@ -314,7 +314,7 @@ El objeto `Math` de Javascript incorpora varias constantes (pi, número de euler
 
 ### Métodos de `Math`
 
-Entre los muchos métodos matematicos que nos proporciona este objeto nos vamos a centrar en los más utilizados normalmente:
+Entre los muchos métodos matematicos que nos proporciona este objeto te vas a centrar en los más utilizados normalmente:
 
 * Métodos de redondeo
 * Métodos de aleatoriedad
